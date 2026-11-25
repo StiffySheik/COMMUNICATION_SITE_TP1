@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-en="Donate – Citoyens en action">Faire un don – Citoyens en action</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,500..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="donate">
+  <a class="skip-link" href="#contenu" data-en="Skip to main content">Aller au contenu principal</a>
+  <header id="site-header" class="site-header"></header>
+
+  <main id="contenu" tabindex="-1">
+    <section class="page-head">
+      <div class="wrap">
+        <h1 data-en="Make a donation">Faire un don</h1>
+        <p class="lead" data-en="Your donation keeps our activities, workshops and campaigns free for the whole community.">Votre don permet d'offrir gratuitement nos activités, nos ateliers et nos campagnes à toute la communauté.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap form-layout">
+        <div>
+          <h2 data-en="What your donation makes possible">Ce que votre don permet</h2>
+          <ul class="impact-list" role="list">
+            <li><strong>25 $</strong><span data-en="A winter kit for a person experiencing homelessness.">Une trousse chaude pour une personne en situation d'itinérance.</span></li>
+            <li><strong>50 $</strong><span data-en="Materials for a civic participation workshop.">Le matériel d'un atelier de participation citoyenne.</span></li>
+            <li><strong>100 $</strong><span data-en="One month of pairing support for a newcomer family.">Un mois de jumelage pour une famille nouvellement arrivée.</span></li>
+            <li><strong>250 $</strong><span data-en="A community dinner for 40 people.">Un souper communautaire pour 40 personnes.</span></li>
+          </ul>
+        </div>
+        <form class="form-card" data-proto data-success="Prototype : à cette étape, vous seriez redirigé vers la page de paiement sécurisée du fournisseur. Merci pour votre générosité!" data-success-en="Prototype: at this step, you would be redirected to the provider's secure payment page. Thank you for your generosity!">
+          <fieldset>
+            <legend data-en="Donation amount">Montant du don</legend>
+            <div class="amounts"><label class="amount"><input type="radio" name="amount" value="25"><span>25 $</span></label><label class="amount"><input type="radio" name="amount" value="50" checked><span>50 $</span></label><label class="amount"><input type="radio" name="amount" value="100"><span>100 $</span></label><label class="amount"><input type="radio" name="amount" value="250"><span>250 $</span></label><label class="amount"><input type="radio" name="amount" value="autre" id="amount-other"><span data-en="Other">Autre</span></label></div>
+          </fieldset>
+          <div class="field" id="other-wrap" hidden>
+            <label for="d-autre"><span data-en="Amount (in dollars)">Montant (en dollars)</span> <span class="req" aria-hidden="true">*</span></label>
+            <input type="number" id="d-autre" name="autre" min="5" step="1" inputmode="numeric" required>
+          </div>
+          <fieldset class="full"><legend data-en="Frequency">Fréquence</legend><div class="choices"><label class="choice"><input type="radio" name="frequence" value="unique" checked> <span data-en="One time">Une seule fois</span></label><label class="choice"><input type="radio" name="frequence" value="mensuel"> <span data-en="Monthly">Chaque mois</span></label></div></fieldset>
+          <div class="form-grid">
+            <div class="field"><label for="d-nom"><span data-en="Full name">Nom complet</span> <span class="req" aria-hidden="true">*</span></label><input type="text" id="d-nom" name="d-nom" autocomplete="name" required></div>
+            <div class="field"><label for="d-courriel"><span data-en="Email (for the receipt)">Courriel (pour le reçu)</span> <span class="req" aria-hidden="true">*</span></label><input type="email" id="d-courriel" name="d-courriel" autocomplete="email" required></div>
+          </div>
+          <button class="btn" type="submit"><span aria-hidden="true" style="display:inline-flex;width:20px"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="5" y="10" width="14" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8 10V7a4 4 0 0 1 8 0v3" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></span><span data-en="Continue to secure payment">Continuer vers le paiement sécurisé</span></button>
+          <p class="form-status" role="status" tabindex="-1"></p>
+          <div class="secure"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="5" y="10" width="14" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8 10V7a4 4 0 0 1 8 0v3" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><p data-en="Payment is processed by a certified secure provider (PCI DSS standard). Citoyens en action never sees or stores your card details. A receipt is sent by email.">Le paiement est traité par un fournisseur sécurisé certifié (norme PCI DSS). Citoyens en action ne voit et ne conserve jamais vos données de carte. Un reçu vous est envoyé par courriel.</p></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer"></footer>
+  <div id="live" class="sr-only" aria-live="polite"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

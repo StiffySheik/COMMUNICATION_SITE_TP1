@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-en="Contact – Citoyens en action">Contact – Citoyens en action</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,500..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contact">
+  <a class="skip-link" href="#contenu" data-en="Skip to main content">Aller au contenu principal</a>
+  <header id="site-header" class="site-header"></header>
+
+  <main id="contenu" tabindex="-1">
+    <section class="page-head">
+      <div class="wrap">
+        <h1 data-en="Contact us">Nous joindre</h1>
+        <p class="lead" data-en="A question, an idea, a need? Write to us, call us or drop by.">Une question, une idée, un besoin? Écrivez-nous, appelez-nous ou passez nous voir.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap form-layout">
+        <div>
+          <h2 data-en="Our contact information">Nos coordonnées</h2>
+          <div data-render="org"></div>
+        </div>
+        <form class="form-card" data-proto data-success="Merci! Votre message est envoyé. Nous vous répondrons d'ici 2 jours ouvrables." data-success-en="Thank you! Your message has been sent. We'll reply within 2 business days.">
+          <h2 data-en="Write to us">Écrivez-nous</h2>
+          <p class="form-note" data-en="Fields marked with * are required.">Les champs marqués d'un * sont obligatoires.</p>
+          <div class="form-grid">
+            <div class="field"><label for="c-nom"><span data-en="Name">Nom</span> <span class="req" aria-hidden="true">*</span></label><input type="text" id="c-nom" name="c-nom" autocomplete="name" required></div>
+            <div class="field"><label for="c-courriel"><span data-en="Email">Courriel</span> <span class="req" aria-hidden="true">*</span></label><input type="email" id="c-courriel" name="c-courriel" autocomplete="email" required></div>
+            <div class="field full"><label for="c-sujet"><span data-en="Subject">Sujet</span> <span class="req" aria-hidden="true">*</span></label><select id="c-sujet" name="c-sujet" required><option value="" data-en="Choose">Choisir</option><option value="info" data-en="General information">Renseignements généraux</option><option value="benevolat" data-en="Volunteering">Bénévolat</option><option value="partenariat" data-en="Partnership or sponsorship">Partenariat ou commandite</option><option value="medias" data-en="Media">Médias</option><option value="autre" data-en="Other">Autre</option></select></div>
+            <div class="field full"><label for="c-message"><span data-en="Message">Message</span> <span class="req" aria-hidden="true">*</span></label><textarea id="c-message" name="c-message" required></textarea></div>
+          </div>
+          <button class="btn" type="submit" data-en="Send the message">Envoyer le message</button>
+          <p class="form-status" role="status" tabindex="-1"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section section-white" id="plan" aria-labelledby="map-title">
+      <div class="wrap">
+        <h2 id="map-title" data-en="How to get here">Plan d'accès</h2>
+        <div class="map-grid">
+          <iframe class="map-frame" title="Carte : 945, ch. de Chambly, Longueuil" data-en-title="Map: 945 Chemin de Chambly, Longueuil" src="https://maps.google.com/maps?q=945+ch.+de+Chambly,+Longueuil,+QC+J4H+4A9&amp;z=15&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div>
+            <p><strong>945, ch. de Chambly<br>Longueuil (Québec) J4H 4A9</strong></p>
+            <ul class="access-list">
+              <li data-en="Wheelchair-accessible entrance at street level.">Entrée accessible en fauteuil roulant, au niveau de la rue.</li>
+              <li data-en="Several RTL bus lines stop nearby on Chemin de Chambly.">Plusieurs lignes d'autobus du RTL s'arrêtent à proximité sur le chemin de Chambly.</li>
+              <li data-en="Free parking behind the building.">Stationnement gratuit derrière le bâtiment.</li>
+              <li data-en="Bike rack at the entrance.">Support à vélos à l'entrée.</li>
+            </ul>
+            <p><a class="btn btn-quiet" href="https://www.google.com/maps/search/?api=1&amp;query=945+ch.+de+Chambly,+Longueuil,+QC+J4H+4A9" target="_blank" rel="noopener"><span data-en="Open in Google Maps">Ouvrir dans Google Maps</span><span class="sr-only" data-en=" (opens in a new tab)"> (s'ouvre dans un nouvel onglet)</span></a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer"></footer>
+  <div id="live" class="sr-only" aria-live="polite"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
