@@ -1,0 +1,31 @@
+PHOTOS DU SITE – Citoyens en action
+====================================
+
+Déposez vos photos dans ce dossier avec EXACTEMENT ces noms (format .jpg).
+Elles apparaîtront automatiquement à la place des emplacements gris.
+Aucune modification du code n'est nécessaire.
+
+Page d'accueil
+  accueil-1.jpg   Grande photo du haut : groupe de bénévoles (format vertical)
+  accueil-2.jpg   Petite photo ronde : aîné et jeune qui discutent (format carré)
+  accueil-3.jpg   Petite photo : mains qui plantent un jardin (format carré)
+  accueil-4.jpg   Section mission : rencontre citoyenne (format vertical)
+  accueil-5.jpg   Galerie, grande photo : nettoyage des berges (format vertical)
+  accueil-6.jpg   Galerie : atelier citoyen
+  accueil-7.jpg   Galerie : souper communautaire
+  accueil-8.jpg   Galerie, photo large : tri de vêtements (format horizontal)
+  accueil-9.jpg   Section « Trois façons de participer » : bénévole qui accueille (format carré)
+
+Page S'impliquer
+  impliquer-1.jpg Bénévoles lors d'une première journée (format vertical)
+
+Page Nos initiatives
+  initiative-1.jpg  Le Frigo partagé
+  initiative-2.jpg  Jumelage Bienvenue
+  initiative-3.jpg  Jardins de ruelle
+  initiative-4.jpg  Aînés branchés
+
+Conseils
+  - Taille suggérée : 1600 pixels de large maximum, moins de 500 Ko par photo.
+  - Le texte de remplacement (pour les lecteurs d'écran) est déjà écrit dans le
+    HTML (attributs data-alt et data-alt-en). Ajustez-le s'il ne décrit plus la photo.

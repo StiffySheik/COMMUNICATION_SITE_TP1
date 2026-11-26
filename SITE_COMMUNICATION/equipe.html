@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-en="Team – Citoyens en action">Équipe – Citoyens en action</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,500..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="team">
+  <a class="skip-link" href="#contenu" data-en="Skip to main content">Aller au contenu principal</a>
+  <header id="site-header" class="site-header"></header>
+
+  <main id="contenu" tabindex="-1">
+    <section class="page-head">
+      <div class="wrap">
+        <h1 data-en="Our team and volunteers">L'équipe et les bénévoles</h1>
+        <p class="lead" data-en="People from all walks of life who keep the organization going. Our team speaks several languages.">Des personnes de tous les horizons qui font vivre l'organisme. Plusieurs langues sont parlées dans notre équipe.</p>
+      </div>
+    </section>
+    <section class="section section-white" aria-labelledby="staff-title">
+      <div class="wrap">
+        <h2 id="staff-title" data-en="Staff">Les employés</h2>
+        <div data-render="team"></div>
+      </div>
+    </section>
+    <section class="section" aria-labelledby="vols-title">
+      <div class="wrap">
+        <h2 id="vols-title" data-en="Some of our volunteers">Quelques-uns de nos bénévoles</h2>
+        <p class="lead" data-en="More than 250 people volunteered with us this year.">Plus de 250 personnes ont fait du bénévolat avec nous cette année.</p>
+        <div data-render="volunteers"></div>
+        <p style="margin-top:2rem"><a class="btn" href="impliquer.html#benevole" data-en="Join the team">Rejoindre l'équipe</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer"></footer>
+  <div id="live" class="sr-only" aria-live="polite"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/editor.js"></script>
+</body>
+</html>
