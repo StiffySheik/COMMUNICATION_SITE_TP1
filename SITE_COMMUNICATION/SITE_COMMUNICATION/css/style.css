@@ -177,6 +177,19 @@ main:focus { outline: none; }
   .tools { width: 100%; justify-content: flex-end; }
 }
 
+/* ---------- Lecture à voix haute ---------- */
+.tool-svg { width: 1.05em; height: 1.05em; }
+.tts-bar { background: var(--sun); color: var(--ink); border-top: 2px solid var(--ink); }
+.tts-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.5rem 1.25rem; padding-block: 0.6rem; }
+.tts-status { margin: 0; font-weight: 700; }
+.tts-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; }
+.tts-controls select { width: auto; min-height: 44px; padding: 0.4rem 0.6rem; }
+.tts-speed { margin: 0 0 0 0.5rem; }
+.tts-tip { flex-basis: 100%; margin: 0; font-size: 0.9rem; }
+.tts-current { background: #fff1b8; box-shadow: 0 0 0 6px #fff1b8; border-radius: 4px; }
+.tts-current, .tts-current * { color: #14213d !important; }
+html.high-contrast .tts-current { background: #ffd400; box-shadow: 0 0 0 6px #ffd400; outline: 2px solid #000; }
+
 /* ---------- Annonce ---------- */
 .announcement { background: var(--sun); color: var(--ink); }
 .announcement .wrap { display: flex; gap: 0.75rem; align-items: center; padding-block: 0.7rem; }

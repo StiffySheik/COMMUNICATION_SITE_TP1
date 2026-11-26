@@ -59,7 +59,18 @@ window.I18N = {
     err_email: "Entrez une adresse courriel valide, par exemple nom@exemple.com.",
     err_number: "Entrez un nombre valide.",
     err_summary: "Le formulaire contient {n} erreur(s). Corrigez les champs indiqués.",
-    donate_other: "Autre montant"
+    donate_other: "Autre montant",
+    tts_listen: "Écouter la page",
+    tts_bar: "Lecture à voix haute",
+    tts_pause: "Pause",
+    tts_resume: "Reprendre",
+    tts_stop: "Arrêter",
+    tts_speed: "Vitesse",
+    tts_progress: "Passage {i} sur {n}",
+    tts_selection: "Lecture du texte sélectionné",
+    tts_started: "Lecture de la page commencée.",
+    tts_done: "Lecture terminée.",
+    tts_tip: "Astuce : sélectionnez un passage avant d'appuyer sur « Écouter » pour lire seulement ce passage."
   },
   en: {
     nav_label: "Main navigation",
@@ -116,6 +127,17 @@ window.I18N = {
     err_email: "Enter a valid email address, for example name@example.com.",
     err_number: "Enter a valid number.",
     err_summary: "The form has {n} error(s). Please fix the highlighted fields.",
-    donate_other: "Other amount"
+    donate_other: "Other amount",
+    tts_listen: "Listen to this page",
+    tts_bar: "Read aloud",
+    tts_pause: "Pause",
+    tts_resume: "Resume",
+    tts_stop: "Stop",
+    tts_speed: "Speed",
+    tts_progress: "Passage {i} of {n}",
+    tts_selection: "Reading the selected text",
+    tts_started: "Reading the page.",
+    tts_done: "Finished reading.",
+    tts_tip: "Tip: select a passage before pressing “Listen” to hear only that passage."
   }
 };
